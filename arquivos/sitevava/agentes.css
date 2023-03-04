@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Layout da página */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+
+body{
+    background-color: white;
+    background-image: url(imagens/image\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;}
+/* Layout da página */
+
+/* Tabela */
+table{
+    border-collapse: collapse;}
+
+td, th{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    text-align: left;
+    border-left: none;
+    border-right: none;
+    padding-top: 5px;
+    padding-left: 3px;}
+
+caption{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;}
+
+@media screen and (max-width: 960px){
+    table{
+        width: 80%;}}
+
+@media screen and (max-width: 470px){
+    table{
+        width: 100%;}
+    td, th{
+        font-family: 'Roboto', sans-serif;
+        font-size: large;
+        text-align: left;
+        border-left: none;
+        border-right: none;
+        padding-top: 5px;
+        padding-left: 3px;}}
+/* Final Tabela*/
+
+a{
+    font-size: x-large}
+h1,h2, h3{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;}
+p{
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;}
+
+/* Início menu */
+.menu{
+    overflow: hidden;
+    background-color: #ff4457;
+    margin-bottom: 10px;}
+.menu a{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.menu a:hover{
+    background-color: #0f1922;
+    color: #ff4457;}
+
+@media screen and (max-width: 570px){
+    .menu a{
+        float: none;
+        width: 100%;}}
+
+#in{
+    background-color: #0f1922;
+    color: #ff4457;}
+/* Final menu */ 

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Layout da página */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+
+body{
+    background-color: white;
+    background-image: url(imagens/image\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    padding-block-end: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff4457;
+    text-align: center;
+    font-size: x-large;
+}
+/* -=-=-=-=-=-=-=-=- */
+
+/* Formulário*/
+label.white{
+    color: white;}
+input{
+    background-color: #0f1922;
+    color: white;}
+/* -=-=-=-=-=-=-=-=- */
+
+a{
+    font-size: x-large}
+
+h1,h2, h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: whitesmoke;}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: whitesmoke;}
+
+/* Vídeo responsivo */
+@media screen and (max-width: 1070px){
+    #video1{
+        width: 100%; 
+        height: 250px;}}
+
+/* Início menu */
+.menu{
+    overflow: hidden;
+    background-color: #ff4457;
+    margin-bottom: 10px;}
+.menu a{
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+.menu a:hover{
+    background-color: #0f1922;
+    color: #ff4457;}
+
+@media screen and (max-width: 705px){
+    .menu a{
+        float: none;
+        width: 100%;}}
+
+#in{
+    background-color: #0f1922;
+    color: #ff4457;}
+/* Final menu */
+
